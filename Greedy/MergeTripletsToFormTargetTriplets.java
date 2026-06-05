@@ -22,5 +22,5 @@ public class MergeTripletsToFormTargetTriplets {
         int[] target = {2,7,5};
         System.out.println(mt.mergeTriplets(triplets, target));
     }
-    
 }
+// the time complexity of this solution is O(n) where n is the number of triplets, and the space complexity is O(1) since we are using a fixed amount of space to store the max values.
