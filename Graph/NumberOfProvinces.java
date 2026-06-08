@@ -31,4 +31,4 @@ public class NumberOfProvinces {
         int[][] isConnected = {{1,1,0},{1,1,0},{0,0,1}};
         System.out.println("Number of Provinces = " + np.findCircleNum(isConnected)); // Output: 2
     }
-}
+}// the time complexity of this solution is 0(n ^ 2) because we are traversing the adjacency matrix of size n x n. The space complexity is O(n) due to the visited array used for DFS.
