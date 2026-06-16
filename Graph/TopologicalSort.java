@@ -62,4 +62,4 @@ public class TopologicalSort {
         ArrayList<Integer> topologicalOrder = solution.topoSort(V, adj);
         System.out.println("Topological Sort: " + topologicalOrder);
     }
-}
+} // the time complexity of this solution is O(V + E), where V is the number of vertices and E is the number of edges in the graph. The space complexity is O(V) for the visited array and the stack used to store the topological order.
