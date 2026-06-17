@@ -68,4 +68,4 @@ public class DetectCycleInDirectedGraph {
         
     }
     
-}
+} // the time complexity of this algorithm is O(V+E) where V is the number of vertices and E is the number of edges in the graph. The space complexity is O(V) for storing the indegree array and the queue.
