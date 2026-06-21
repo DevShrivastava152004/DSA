@@ -21,4 +21,4 @@ public class NumArray {
         System.out.println(numArray.sumRange(2, 5)); // Output: -1
         System.out.println(numArray.sumRange(0, 5)); // Output: -3
     }
-} // the time complexity of this code is O(n) for the constructor and O(1) for the sumRange method. The space complexity is O(n) due to the prefix array.
+} // the time complexity of this code is O(n) for the constructor and O(1) for the sumRange method. The space complexity is O(n) due to the prefix array.Intere
