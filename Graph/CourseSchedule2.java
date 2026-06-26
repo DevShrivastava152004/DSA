@@ -73,4 +73,4 @@ public class CourseSchedule2 {
             System.out.println();
         }
     }
-}
+} // the time complexity of the solution is O(V + E) where V is the number of courses and E is the number of prerequisites. The space complexity is O(V + E) for storing the graph and indegree array.
